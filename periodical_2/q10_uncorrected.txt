@@ -1,3 +1,17 @@
 //cb.en.u4cys22005
 
-NOT ATTEMPTED
+#include <stdio.h>
+
+struct complex{
+  int val1;
+  int val2;
+  int val3;
+}cn;
+
+int main(){
+  scanf("%d",cn.val1);
+  scanf("%d",cn.val2);
+  cn.val3=cn.val1*cn.val2;
+  printf("%d",cn.val3);
+  return 0;
+}
