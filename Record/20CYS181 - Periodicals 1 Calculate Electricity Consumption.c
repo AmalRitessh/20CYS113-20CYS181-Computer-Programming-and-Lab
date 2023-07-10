@@ -2,7 +2,7 @@
 int main() {
   char customer_name[5][25]; 
   int customer_eb_number[5]; 
-  float customer_units_consumed[5]; consumed.
+  float customer_units_consumed[5];
   float customer_bill[5]; 
  
   for (int i = 0; i < 5; i++) {
